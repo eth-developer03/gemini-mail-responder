@@ -1,0 +1,28 @@
+{
+  "name": "gemini-mail-responder",
+  "version": "1.0.0",
+  "description": "an ai generating mail package",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eth-developer03/gemini-mail-responder.git"
+  },
+  "keywords": [
+    "mail"
+  ],
+  "author": "Kartikeya Pandey",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eth-developer03/gemini-mail-responder/issues"
+  },
+  "homepage": "https://github.com/eth-developer03/gemini-mail-responder#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.17.0",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14"
+  }
+}
